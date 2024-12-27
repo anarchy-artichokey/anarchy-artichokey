@@ -54,6 +54,3 @@
 
 (package! pdf-tools)
 (package! elcord)
-(package! flycheck-rust)
-(package! rust-mode)
-(package! cargo)
