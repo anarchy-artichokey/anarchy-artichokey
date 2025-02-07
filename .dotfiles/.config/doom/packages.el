@@ -54,3 +54,7 @@
 
 (package! pdf-tools)
 (package! elcord)
+(package! catppuccin-theme)
+(package! cdlatex)
+(package! auctex)
+(package! gdb-mi :recipe (:host github :repo "weirdNox/emacs-gdb" :files ("*.el" "*.c" "*.h" "Makefile")))

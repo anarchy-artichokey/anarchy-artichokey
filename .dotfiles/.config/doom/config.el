@@ -80,6 +80,7 @@
 (menu-bar-mode 1) ;; show menubar
 (display-battery-mode 1) ;; show battery charge level
 (blink-cursor-mode 1) ;; blinks cursor lol
+(setq doom-theme 'catppuccin)
 
 ;; discord rich presence
 (elcord-mode 1) ;; enables discord rpc
@@ -93,3 +94,6 @@
 ;; undo and redo
 (global-set-key (kbd "C-S-z") 'undo) ;; undo
 (global-set-key (kbd "C-S-y") 'undo-redo) ;; redo
+
+;; latex
+
